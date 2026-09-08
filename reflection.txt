@@ -1,0 +1,9 @@
+In this unit, I learned why functions matter so much. A function is a piece of code you write and reuse as many times as needed, instead of retyping the same formula everywhere. When I built calc_resistance(), I didnt have to write voltage divided by current every time I needed a resistance value - I just called the fuction with new numbers.
+
+Parameters are the inputs a function needs to work, like voltage and current in my Ohm's Law function. Once the function fiishes, it uses return to hand the answer back so the rest of the program can actually use it, whether that's printing it or passing it elsewhere.
+
+Docstrings turned out more useful than expected. They explain what a function does and what it needs, which matters once a project has different files and you can't remember every detail.
+
+Local and global variables confused me at first, but Activity 3.4 made it click. A local variable only lives inside its function, while a global on works anywhere. DEFAULT_CURRENT stayed 0.5 outside show_default(), even though I changed it to 1.0 inside.
+
+Git was just as important as the coding - committing after each activity gave me checkpoints, and pushing to GitHub backed everything up.
